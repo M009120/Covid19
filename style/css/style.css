@@ -260,6 +260,7 @@ z-index: -1; }
     ; color: #fff;}
 
 /* End Have Let us help you */
+/* start footer */
 .footer .flex{display: flex; justify-content: space-between;}
 /* .footer .flex .myul {padding: 17px;} */
 .footer .flex .links_footer ul li a{display: block;  color: #035755; padding: 20px;}
@@ -275,3 +276,4 @@ z-index: -1; }
 @media (max-width: 767px){
   .footer .flex .links_footer .myul{flex-direction: column;}
 }
+/* end footer */
