@@ -258,7 +258,13 @@ z-index: -1; }
     ; padding: 20px; border: none; border-radius: 50px;}
 .have_let .input .send{width: 100px; height: 36px; margin-left: -120px; border-radius: 157px; border: none; background-color: #F44A45;
     ; color: #fff;}
-
+@media (max-width: 992px){
+  .have_let .input .email{width: 365px; height: 50px; display: block; margin: auto;}
+  .have_let .input .send{ width: 200px; height: 50px; text-align: center; margin: auto; margin-top: 30px;}
+}
+@media (max-width: 767px){
+  .have_let .input .send{ width: 200px; height: 50px; text-align: center; margin: auto; margin-top: 30px;}
+}
 /* End Have Let us help you */
 /* start footer */
 .footer .flex{display: flex; justify-content: space-between;}
